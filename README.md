@@ -36,11 +36,11 @@ Este repositorio es para la materia de estructura y organizacion de datos.
         3.3 Gráfos  
 
  ### 4. Métodos de ordenamiento y búsqueda       
- 4.1 Algoritmos de ordenamiento  
+ - 4.1 Algoritmos de ordenamiento  
 
-4.2 Métodos de busqueda  
+- 4.2 Métodos de busqueda  
            
-4.3 Recuperación de datos  
+- 4.3 Recuperación de datos  
 
 **Algoritmo:**
 Es un conjunto de instrucciones sistemáticas y previamente definidas que se utilizan para realizar una determinada tarea. Estas instrucciones están ordenadas y acotadas a manera de pasos a seguir para alcanzar un objetivo.
