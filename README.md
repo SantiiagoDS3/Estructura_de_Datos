@@ -42,7 +42,7 @@ Este repositorio es para la materia de estructura y organizacion de datos.
            
 - 4.3 Recuperación de datos  
 
-### Conceptos
+## Conceptos
 
 **Algoritmo:**
 Es un conjunto de instrucciones sistemáticas y previamente definidas que se utilizan para realizar una determinada tarea. Estas instrucciones están ordenadas y acotadas a manera de pasos a seguir para alcanzar un objetivo.
