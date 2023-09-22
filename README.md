@@ -35,8 +35,8 @@ Este repositorio es para la materia de estructura y organizacion de datos.
 
         3.3 Gráfos  
 
- #### 4. Métodos de ordenamiento y búsqueda       
-        4.1 Algoritmos de ordenamiento  
+ ### 4. Métodos de ordenamiento y búsqueda       
+        -4.1 Algoritmos de ordenamiento  
 
         4.2 Métodos de busqueda  
            
