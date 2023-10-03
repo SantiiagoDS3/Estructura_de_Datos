@@ -68,6 +68,7 @@ La ciencia de datos es el estudio de datos con el fin de extraer información si
  **Bases de datos:**
  Una base de datos es una herramienta para recopilar y organizar información. Las bases de datos pueden almacenar información sobre personas, productos, pedidos u otras cosas. Muchas bases de datos comienzan como una lista en una hoja de cálculo o en un programa de procesamiento de texto.
 
+ 
  ## Conceptos Unidad 2
  
  **Listas:**
@@ -102,19 +103,3 @@ Es un lenguaje de programación ampliamente utilizado en las aplicaciones web, e
 
 **Lenguaje JavaScript:**
 JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.
-=======
-**Bases de datos:**
-Una base de datos es una herramienta para recopilar y organizar información. Las bases de datos pueden almacenar información sobre personas, productos, pedidos u otras cosas. Muchas bases de datos comienzan como una lista en una hoja de cálculo o en un programa de procesamiento de texto.
-
-**Estructura de datos lineales:**
-Son aquellas en las que los elementos ocupan lugares sucesivos en la estructura y cada uno de ellos tiene un único sucesor y un único predecesor.
-
-**Estructura de datos no lineales:**
-Son aquellas en las que cada elemento puede estar enlazado a cualquier otro componente.
-
-**Estructura de datos dinamicas:**
-Se considera dinamica si para su creación se van generando o eliminando elementos al momento de ejecución.
-
-**Estructura de datos estaticas:**
-Son aquellas en las que el tamaño ocupado en la memoria se define antes del que programa se ejecute y no puede modificarse el tamaño mientras se ejecute el programa.
->>>>>>> f4e6054e26fb2b4da524c003b2e73f952f5ef67b
