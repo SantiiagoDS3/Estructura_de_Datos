@@ -42,7 +42,7 @@ Este repositorio es para la materia de estructura y organizacion de datos.
            
 - 4.3 Recuperación de datos  
 
-## Conceptos
+## Conceptos Unidad 1
 
 **Algoritmo:**
 Es un conjunto de instrucciones sistemáticas y previamente definidas que se utilizan para realizar una determinada tarea. Estas instrucciones están ordenadas y acotadas a manera de pasos a seguir para alcanzar un objetivo.
@@ -67,3 +67,38 @@ Es un conjunto de instrucciones sistemáticas y previamente definidas que se uti
 
  **Bases de datos:**
  Una base de datos es una herramienta para recopilar y organizar información. Las bases de datos pueden almacenar información sobre personas, productos, pedidos u otras cosas. Muchas bases de datos comienzan como una lista en una hoja de cálculo o en un programa de procesamiento de texto.
+
+ ## Conceptos Unidad 2
+ 
+ **Listas:**
+ Es un tipo de estructura de datos que permite almacenar y acceder a un conjunto de elementos en un orden específico.
+
+ **Diccionarios:**
+ Un diccionario es un tipo de datos que sirve para asociar pares de objetos. Un diccionario puede ser visto como una colección de llaves, cada una de las cuales tiene asociada un valor.
+
+ **Diferencia entre listas y diccionarios:**
+ Los diccionarios nos servirán de manera similar a las listas, pero con la diferencia de que podremos almacenar valores con llaves, lo que hará más eficiente guardar valores porque no se ocupará tanta memoria como la ocupa una lista siendo útiles para cuando necesites optimizar.
+
+ **Pilas:**
+Se define formalmente como una colección de datos a los cuales se puede acceder mediante un extremo, que se conoce generalmente como tope. Las pilas no son estructuras fundamentales de datos Para su representación requieren el uso de otras estructuras de datos, como arreglos o listas.
+
+**Pilas estaticas:**
+Son estructuras de datos lineales que siguen el principio de LIFO (Last In, First Out), lo que significa que el último elemento insertado es el primero en ser eliminado.
+
+**Pilas dinamicas:**
+Se refiere a una región de la memoria utilizada para almacenar datos de manera organizada y eficiente, con la característica de que su tamaño puede crecer o disminuir durante la ejecución de un programa. 
+
+**Colas:**
+Es una estructura de datos que almacena elementos en una lista y permite acceder a los datos por uno de los dos extremos de la lista. Un elemento se inserta en la cola (parte final) de la lista y se suprime o elimina por la frente (parte inicial, cabeza) de la lista.
+
+**Colas estaticas y dinamicas:**
+Al hablar de una cola estática, se considera que tendrá un tamaño definido y no podrá superar dicha capacidad para el almacenamiento de más información, solo la indicada. Y con respecto a una cola dinámica corresponde a aquella que no tendrá un límite de capacidad, es decir, podemos hacer n número de inserciones.
+
+**Lenguaje R:**
+R es un lenguaje de programación diseñado para realizar análisis estadísticos y crear gráficos a partir de datos, proporcionando un amplio abanico de herramientas estadísticas (modelos lineales y no lineales, tests estadísticos, análisis de series temporales, algoritmos de clasificación y agrupamiento, etc..) y gráficas.
+
+**Lenguaje R:**
+Es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes.
+
+**Lenguaje JavaScript:**
+JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.
