@@ -1,0 +1,1 @@
+itic3 = ["Jonathan de Jesus Garcia Rodriguez","Nahum Santiago Espinoza Herrera","Eduardo Flores Gallegos","Juan De Dios Prieto Roman","Sajith Alexandro Montaño Grimaldo"]
