@@ -18,3 +18,25 @@ print(Itic3)
 #Agregar otra lista
 Itic3.extend('Juan')
 print(Itic3)
+
+#Agregar elemento en la posicion 5 
+Itic3.insert(4,"Pikillo")
+print(Itic3)
+
+#Borrar un elemento determinado
+del Edades[0]
+print(Edades)
+
+#Ver el tamaño de nuestras listas
+print(len(Edades))
+print(len(Itic3))
+print(len(Carreras_Itpa))
+
+#Eliminar un elemento en especifico
+Edades.remove(19)
+print(Edades)
+print("-----------------------------------------")
+#Ordenar elementos
+print(Edades)
+Edades.sort()
+print(Edades)
