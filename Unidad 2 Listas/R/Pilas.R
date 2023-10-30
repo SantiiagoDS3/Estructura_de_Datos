@@ -1,17 +1,17 @@
-Pila <- list()
-push <- function(pila,elemento){
-  pila <- c(pila,elemento)
-  return(pila)
+Pila <- list("klk","rainer")
+push <- function(Pila,elemento){
+  Pila <- c(Pila,elemento)
+  return(Pila)
 }
-pop <- function(pila){
-  if(length(pila)>0){
-    elemento <- pila[length(pila)]
-    pila<-pila[-length(pila)]
-    return(pila(elemento,pila))
+pop <- function(Pila){
+  if(length(Pila)>0){
+    elemento <- Pila[length(Pila)]
+    Pila<-Pila[-length(Pila)]
+    return(Pila(elemento,Pila))
   }else{
     return("La pila está vacía")
   }
 }
-MiPila <- list()
-MiPila <- push(MiPila,0)
-elemento <- pop(MiPila)
+
+pila <- push(Pila,"")
+print(pila)
