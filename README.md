@@ -103,3 +103,25 @@ Es un lenguaje de programación ampliamente utilizado en las aplicaciones web, e
 
 **Lenguaje JavaScript:**
 JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.
+
+## Conceptos Unidad 3
+
+**Recursividad:**
+Es la propiedad mediante la cual un subprograma o rutina puede llamarse a sí mismo. Utilizando la recursividad, la resolución de un problema se reduce a uno esencialmente igual pero algo menos complejo.
+
+**Árboles:**
+Los árboles son estructuras no lineales al contrario a estructuras lineales como lo son los arreglos y las listas. Además, los árboles reducen la complejidad (a un comportamiento logarıtmico) en cuanto a operaciones como inserción y eliminación.
+
+**Grafos:**
+Es una estructura matemática que permite representar problemas cotidianos de manera gráfica. Además, la teoría de grafos permite representar un sólo tipo de relación (representación simple), pero también permite representar más de un tipo (en ese caso, se llamaría múltiple).
+
+## Conceptos Unidad 4
+
+**Metodos de ordenamiento:**
+Es un algoritmo que permuta los datos de una estructura en una secuencia determinada. Los métodos de ordenación son especialmente útiles para que los datos que procesamos sean legibles por humanos y su procesamiento se agilice.
+
+**Metodos de busqueda:**
+Es un conjunto de instrucciones que están diseñadas para localizar un elemento con ciertas propiedades dentro de una estructura de datos.
+
+**Recuperación de datos:**
+Es el conjunto de técnicas y procedimientos utilizados para acceder y extraer la información almacenada en medios de almacenamiento digital que por daño o avería no pueden ser accesibles de manera usual.
