@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +21,14 @@
             margin-right: auto;
         }
     </style>
-    <title>Document</title>
+    <title>Pilas</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><span class="text primary">Estructuras de</span> Datos </Code></a>
+            <a href="index.html" class="navbar-brand"><img src="wos2.jpeg" width="30px" height="20px"><span
+                    class="text primary"> Estructuras de</span> Datos </Code></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
                 aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-tooggler-icon"></span>
@@ -66,33 +69,223 @@
     <h1>
         <p class="fst-italic"><b>Pilas</b></p>
     </h1>
-    <p>Una pila es una estructura de datos que sigue el principio de "último en entrar, primero en salir" (LIFO, por sus siglas en inglés: Last In, First Out). Esto significa que el último elemento que se agrega a la pila es el primero en ser eliminado. Puedes imaginar una pila como una colección de elementos apilados uno encima del otro,</p>
-    <br> 
+    <p>Una pila es una estructura de datos que sigue el principio de "último en entrar, primero en salir" (LIFO, por sus
+        siglas en inglés: Last In, First Out). Esto significa que el último elemento que se agrega a la pila es el
+        primero en ser eliminado. Puedes imaginar una pila como una colección de elementos apilados uno encima del otro,
+    </p>
+    <br>
+    <img src="pila.png" alt="90" style="width: 30%; border: 2p solid black;"
+        class="centrar-imagen object-fit-contain border rounded">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Caracteristicas de una pila</b></h3>
+    <br>
 
-
-
-
-    <div class="bg-dark text-secondary px-4 py-5 text-center fixed-bottom">
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        Last In, First Out (LIFO)
+    </button>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Last In, First Out (LIFO)</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    El principio fundamental de las pilas es que el último elemento que se añade es el primero en ser
+                    eliminado. Esto se conoce como el principio LIFO (Último En Entrar Primero En Salir).
+                    <img src="lifo.png" alt="90" class="centrar-imagen">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        Operaciones Básicas
+    </button>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Operaciones Básicas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Push (Empujar): Agrega un elemento a la parte superior de la pila.
+                    Pop (Sacar): Elimina el elemento en la parte superior de la pila.
+                    Peek o Top: Obtiene el elemento en la parte superior de la pila sin eliminarlo.
+                    <img src="pop.png" alt="90" class="centrar-imagen">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+        Estructura Simple
+    </button>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Estructura Simple</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Las pilas son estructuras de datos relativamente simples en comparación con otras estructuras más
+                    complejas. Esto las hace fáciles de entender y utilizar.
+                    <img src="estpil.png" alt="90" class="centrar-imagen">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+        Aplicaciones Prácticas
+    </button>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Aplicaciones Prácticas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Las pilas se utilizan en la gestión de memoria de programas (pila de llamadas), navegadores web
+                    (historial de navegación), sistemas operativos (manejo de interrupciones y llamadas al sistema),
+                    entre otros.
+                    <img src="apilas.jpeg" alt="90" class="centrar-imagen" style="width: 60%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+        Eficiencia en Inserción y Eliminación
+    </button>
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel5">Eficiencia en Inserción y Eliminación</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Las operaciones de inserción (push) y eliminación (pop) en una pila son operaciones de tiempo
+                    constante O(1)O(1), lo que las hace eficientes.
+                    <img src="push.png" alt="90" class="centrar-imagen" style="width: 60%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+        Restricción de Acceso
+    </button>
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel6">Restricción de Acceso</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    El acceso directo a elementos de la pila está limitado a la cima (top) de la pila. Para acceder a
+                    elementos más profundos, primero se deben eliminar los elementos superiores.
+                    <img src="restri.png" alt="90" class="centrar-imagen" style="width: 60%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Más información</b></h3>
+    <br>
+    <div class="card mb-3 center-block" style="width: 60%;">
+        <img src="refri.png" class="card-img-top centrar-imagen" alt="90" style="width: 60%;">
+        <div class="card-body">
+            <h5 class="card-title">Pilas</h5>
+            <p class="card-text">Como programadores, el primer encuentro que tenemos con las Pilas pueden ser los
+                Errores como StackOverFlow muy comunes cuando realizamos alguna función con recursividad, ya que las
+                funciones cada vez que se llaman a sí mismas, guardan la posición en la que se quedaron ejecutando el
+                programa, debido a que una vez que la función retorne, el programa deberá continuar ejecutándose donde
+                se quedó.</p>
+            <a href="https://www.oscarblancarteblog.com/2014/08/06/estructura-de-datos-pila-stack/" class="btn btn-primary">Más información</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-4">
             <h4 class="display-5 fw-bold text-white">Made by</h4>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera IT3</p>
-                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
-                    <span class="bi bi-github fs-1"></span>
+                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera</p>
+                <p class="fs-6 text-secondary">¡Sigueme aqui!</p>
+                <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100006404921362">
+                    <span class="bi bi-facebook fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/elmonomasrabiosodetodoelsafari/" role="button">
+                    <span class="bi bi-instagram fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
+                    <span class="bi bi-whatsapp fs-1"></span>
                 </a>
                 <a class="btn btn-dark" href="https://www.youtube.com/channel/UCudCDLifas1MEJ26XxQkb_A" role="button">
                     <span class="bi bi-youtube fs-1"></span>
                 </a>
-                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
-                    <span class="bi bi-whatsapp fs-1"></span>
+                <a class="btn btn-dark" href="https://www.tiktok.com/@san.tiagods3" role="button">
+                    <span class="bi bi-tiktok fs-1"></span>
+                </a>
+                <a class="btn btn-dark"
+                    href="https://open.spotify.com/user/31zzk3gmm3b73d67fsqas3f5renm?si=9d7e93398a9c4888" role="button">
+                    <span class="bi bi-spotify fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
+                    <span class="bi bi-github fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.twitch.tv/santiago__ds3">
+                    <span class="bi bi-twitch fs-1"></span>
                 </a>
             </div>
         </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>

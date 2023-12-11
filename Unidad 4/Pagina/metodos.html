@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +21,14 @@
             margin-right: auto;
         }
     </style>
-    <title>Document</title>
+    <title>Métodos de Búsqueda</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><span class="text primary">Estructuras de</span> Datos </Code></a>
+            <a href="index.html" class="navbar-brand"><img src="wos2.jpeg" width="30px" height="20px"><span
+                    class="text primary"> Estructuras de</span> Datos </Code></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
                 aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-tooggler-icon"></span>
@@ -66,31 +69,128 @@
     <h1>
         <p class="fst-italic"><b>Métodos de Búsqueda</b></p>
     </h1>
-    <p>Los métodos de búsqueda se refieren a técnicas utilizadas para encontrar un elemento específico dentro de un conjunto de datos. Estos métodos son esenciales en la programación y la informática para realizar búsquedas eficientes y rápidas en conjuntos de información de diversos tamaños.</p>
-    <br> 
-
-
-    <div class="bg-dark text-secondary px-4 py-5 text-center fixed-bottom">
+    <p>Los métodos de búsqueda se refieren a técnicas utilizadas para encontrar un elemento específico dentro de un
+        conjunto de datos. Estos métodos son esenciales en la programación y la informática para realizar búsquedas
+        eficientes y rápidas en conjuntos de información de diversos tamaños.</p>
+    <br>
+    <img src="metodos.webp" alt="90" style="width: 30%; border: 2p solid black;"
+        class="centrar-imagen object-fit-contain border rounded">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Tipos de métodos de búsqueda</b></h3>
+    <br>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Búsqueda Lineal</h5>
+                <small>hace 1d</small>
+            </div>
+            <p class="mb-1">También conocida como búsqueda secuencial, este método implica examinar cada elemento de la
+                estructura de datos en secuencia hasta encontrar el elemento deseado o llegar al final.
+                Es eficaz para listas no ordenadas, pero puede ser ineficiente en listas grandes.</p>
+            <img src="lineal.webp" alt="90" class="centrar-imagen object-fit-contain border rounded">
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Búsqueda Binaria</h5>
+                <small class="text-body-secondary">hace 1d</small>
+            </div>
+            <p class="mb-1">Aplicable solo a listas ordenadas, la búsqueda binaria divide repetidamente la lista a la
+                mitad y compara el elemento deseado con el elemento central.
+                Este enfoque es más eficiente que la búsqueda lineal y tiene una complejidad logarítmica (O(log n) O
+                (logn)).</p>
+            <img src="binaria.png" alt="90" class="centrar-imagen object-fit-contain border rounded"
+                style="width: 30%;">
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Búsqueda en Tablas Hash</h5>
+                <small class="text-body-secondary">hace 1d</small>
+            </div>
+            <p class="mb-1">Las tablas hash utilizan una función de dispersión para asignar claves a ubicaciones en la
+                tabla. La búsqueda implica calcular la función de dispersión y buscar en la ubicación correspondiente.
+                En el caso promedio, la búsqueda en una tabla hash tiene una complejidad constante (O(1)O(1)), pero
+                puede haber colisiones.</p>
+            <img src="hash.png" alt="90" class="centrar-imagen object-fit-contain border rounded">
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Búsqueda en Árboles Binarios de Búsqueda (BST)</h5>
+                <small class="text-body-secondary">hace 1d</small>
+            </div>
+            <p class="mb-1">Las tablas hash utilizan una función de dispersión para asignar claves a ubicaciones en la
+                tabla. La búsqueda implica calcular la función de dispersión y buscar en la ubicación correspondiente.
+                En el caso promedio, la búsqueda en una tabla hash tiene una complejidad constante (O(1)O(1)), pero
+                puede haber colisiones.</p>
+            <img src="arbolbinario.png" alt="90" class="centrar-imagen object-fit-contain border rounded">
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Búsqueda en Grafos</h5>
+                <small class="text-body-secondary">Hace 1d</small>
+            </div>
+            <p class="mb-1">Para buscar en estructuras de grafos, se pueden utilizar algoritmos como la búsqueda en
+                profundidad (DFS) o la búsqueda en amplitud (BFS), dependiendo de los requisitos específicos.</p>
+            <img src="bus-graf.png" alt="90" class="centrar-imagen object-fit-contain border rounded">
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Más información</b></h3>
+    <br>
+    <div class="card mb-3 center-block" style="width:60%;">
+        <img src="masinfo.jpeg" class="card-img-top centrar-imagen" alt="90" style="width: 60%;">
+        <div class="card-body">
+          <h5 class="card-title">Métodos de Búsqueda</h5>
+          <p class="card-text">La búsqueda es una operación que tiene por objeto la localización de un elemento dentro de la estructura de datos (arreglo). A menudo un programador estará trabajando con grandes cantidades de datos almacenados en arreglos y pudiera resultar necesario determinar si un arreglo contiene un valor que coincide con algún valor clave o buscado.</p>
+          <a href="https://paginadec.webcindario.com/old/busqueda-metodos.html" class="btn btn-primary">Más información</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-4">
             <h4 class="display-5 fw-bold text-white">Made by</h4>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera IT3</p>
-                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
-                    <span class="bi bi-github fs-1"></span>
+                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera</p>
+                <p class="fs-6 text-secondary">¡Sigueme aqui!</p>
+                <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100006404921362">
+                    <span class="bi bi-facebook fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/elmonomasrabiosodetodoelsafari/" role="button">
+                    <span class="bi bi-instagram fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
+                    <span class="bi bi-whatsapp fs-1"></span>
                 </a>
                 <a class="btn btn-dark" href="https://www.youtube.com/channel/UCudCDLifas1MEJ26XxQkb_A" role="button">
                     <span class="bi bi-youtube fs-1"></span>
                 </a>
-                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
-                    <span class="bi bi-whatsapp fs-1"></span>
+                <a class="btn btn-dark" href="https://www.tiktok.com/@san.tiagods3" role="button">
+                    <span class="bi bi-tiktok fs-1"></span>
+                </a>
+                <a class="btn btn-dark"
+                    href="https://open.spotify.com/user/31zzk3gmm3b73d67fsqas3f5renm?si=9d7e93398a9c4888" role="button">
+                    <span class="bi bi-spotify fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
+                    <span class="bi bi-github fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.twitch.tv/santiago__ds3">
+                    <span class="bi bi-twitch fs-1"></span>
                 </a>
             </div>
         </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +21,14 @@
             margin-right: auto;
         }
     </style>
-    <title>Document</title>
+    <title>Colas</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><span class="text primary">Estructuras de</span> Datos </Code></a>
+            <a href="index.html" class="navbar-brand"><img src="wos2.jpeg" width="30px" height="20px"><span
+                    class="text primary"> Estructuras de</span> Datos </Code></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
                 aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-tooggler-icon"></span>
@@ -66,35 +69,194 @@
     <h1>
         <p class="fst-italic"><b>Colas</b></p>
     </h1>
-    <p>Una cola es una estructura de datos que sigue el principio de "primero en entrar, primero en salir" (FIFO, por sus siglas en inglés: First In, First Out). Esto significa que el primer elemento que se agrega a la cola es el primero en ser eliminado.</p>
-    <br> 
+    <p>Una cola es una estructura de datos que sigue el principio de "primero en entrar, primero en salir" (FIFO, por
+        sus siglas en inglés: First In, First Out). Esto significa que el primer elemento que se agrega a la cola es el
+        primero en ser eliminado.</p>
+    <br>
+    <img src="cola.svg" alt="90" style="width: 30%; border: 2p solid black;"
+        class="centrar-imagen object-fit-contain border rounded">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Caracteristicas de una pila</b></h3>
+    <br>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling">First In, First Out (FIFO)</button>
 
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">First In, First Out (FIFO)</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>El principio fundamental de las pilas es que el último elemento que se añade es el primero en ser
+                eliminado. Esto se conoce como el principio LIFO.</p>
+            <img src="quee.jpeg" alt="90" style="width: 100%;">
 
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling2"
+        aria-controls="offcanvasScrolling">Operaciones Básicas</button>
 
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling2" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel2">Operaciones Básicas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Enqueue (Encolar): Añade un elemento al final de la cola.
+                Dequeue (Desencolar): Elimina el elemento al principio de la cola.
+                Front: Obtiene el elemento al principio de la cola sin eliminarlo.
+                Rear o Back: Obtiene el elemento al final de la cola sin eliminarlo.</p>
+            <img src="fifo.jpeg" alt="90" style="width: 100%;">
 
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling3"
+        aria-controls="offcanvasScrolling">Estructura Simple</button>
 
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling3" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel3">Estructura Simple</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Al igual que las pilas, las colas son estructuras de datos relativamente simples, pero siguen un
+                principio diferente (FIFO en lugar de LIFO).</p>
+            <img src="estruct.jpeg" alt="90" style="width: 100%;">
 
-    <div class="bg-dark text-secondary px-4 py-5 text-center fixed-bottom">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling4"
+        aria-controls="offcanvasScrolling">Eficiencia en Inserción y Eliminación</button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling4" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel4">Eficiencia en Inserción y Eliminación</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Las operaciones de inserción (enqueue) y eliminación (dequeue) en una cola son operaciones de tiempo
+                constante O(1)O(1), lo que las hace eficientes.</p>
+            <img src="insercol.png" alt="90" style="width: 100%;">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling5"
+        aria-controls="offcanvasScrolling">Restricción de Acceso</button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling5" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel5">Restricción de Acceso</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>El acceso directo a elementos de la cola está limitado al principio (front) y al final (rear) de la cola.
+                Para acceder a elementos en posiciones intermedias, generalmente se deben eliminar elementos anteriores.
+            </p>
+            <img src="front.png" alt="90" style="width: 100%;">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling6"
+        aria-controls="offcanvasScrolling">Algoritmos de Búsqueda en Amplitud</button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling6" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel6">Algoritmos de Búsqueda en Amplitud</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Las colas se utilizan en algoritmos de búsqueda en amplitud (BFS) para explorar y procesar nodos o
+                elementos en un grafo o estructura de datos.
+            </p>
+            <img src="bfs.png" alt="90" style="width: 100%;">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Más información</b></h3>
+    <br>
+    <div class="card mb-3 center-block" style="width: 60%;">
+        <img src="colain.png" class="card-img-top centrar-imagen" alt="90" style="width: 60%;">
+        <div class="card-body">
+            <h5 class="card-title">Colas</h5>
+            <p class="card-text">Una Cola o Queue es una estructura de datos que sigue la Filosofía FIFO del ingles
+                First In – First Out que en español seria “Primero en entrar primero en salir”. Esto quiere decir que el
+                elemento que entre primero a la Cola sera el primero que salga y el último que entre sera el último en
+                salir.</p>
+            <a href="https://www.oscarblancarteblog.com/2014/08/01/estructura-de-datos-queue-cola/"
+                class="btn btn-primary">Más información</a>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-4">
             <h4 class="display-5 fw-bold text-white">Made by</h4>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera IT3</p>
-                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
-                    <span class="bi bi-github fs-1"></span>
+                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera</p>
+                <p class="fs-6 text-secondary">¡Sigueme aqui!</p>
+                <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100006404921362">
+                    <span class="bi bi-facebook fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/elmonomasrabiosodetodoelsafari/" role="button">
+                    <span class="bi bi-instagram fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
+                    <span class="bi bi-whatsapp fs-1"></span>
                 </a>
                 <a class="btn btn-dark" href="https://www.youtube.com/channel/UCudCDLifas1MEJ26XxQkb_A" role="button">
                     <span class="bi bi-youtube fs-1"></span>
                 </a>
-                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
-                    <span class="bi bi-whatsapp fs-1"></span>
+                <a class="btn btn-dark" href="https://www.tiktok.com/@san.tiagods3" role="button">
+                    <span class="bi bi-tiktok fs-1"></span>
+                </a>
+                <a class="btn btn-dark"
+                    href="https://open.spotify.com/user/31zzk3gmm3b73d67fsqas3f5renm?si=9d7e93398a9c4888" role="button">
+                    <span class="bi bi-spotify fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
+                    <span class="bi bi-github fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.twitch.tv/santiago__ds3">
+                    <span class="bi bi-twitch fs-1"></span>
                 </a>
             </div>
         </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>

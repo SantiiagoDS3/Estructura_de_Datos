@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><span class="text primary">Estructuras de</span> Datos </Code></a>
+            <a href="index.html" class="navbar-brand"><img src="wos2.jpeg" width="30px" height="20px"><span class="text primary">  Estructuras de</span> Datos </Code></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
                 aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-tooggler-icon"></span>
@@ -68,23 +68,166 @@
     </h1>
     <p>Los grafos en estructuras de datos son representaciones visuales y matemáticas de un conjunto de objetos interconectados, llamados nodos, a través de enlaces llamados aristas. Estos nodos y aristas forman una red que puede utilizarse para modelar relaciones entre diferentes elementos. Los grafos son una herramienta poderosa para representar y analizar una variedad de situaciones y problemas en ciencias de la computación y otras disciplinas.</p>
     <br>
+    <img src="grafo.png" alt="90" style="width: 50%; border: 2p solid black;" class="centrar-imagen">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Componentes de un grafo</b></h3>
+    <br>
+    <div class="card text-center w-76 mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><b>Nodo (Vértice)</b></h5>
+          <p class="card-text">Representa una entidad individual en el grafo. Los nodos pueden tener información asociada, conocida como "datos" o "pesos".</p>
+          <img src="nodoo.png" alt="90" class="centrar-imagen">
+        </div>
+    </div>
+    <br>
+    <div class="card text-center w-76 mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><b>Arista (Enlace)</b></h5>
+          <p class="card-text">Es una conexión entre dos nodos que indica una relación entre ellos. Las aristas pueden ser dirigidas o no dirigidas. En un grafo dirigido, la arista tiene un punto de inicio y un punto final, mientras que en un grafo no dirigido, la arista simplemente conecta dos nodos sin una dirección específica.</p>
+          <img src="arista.png" alt="90" class="centrar-imagen">
+        </div>
+    </div>
+    <br>
+    <div class="card text-center w-76 mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><b>Peso</b></h5>
+          <p class="card-text">Es un valor asociado a una arista que puede representar alguna medida o costo. No todos los grafos tienen pesos en sus aristas.</p>
+          <img src="peso.png" alt="90" class="centrar-imagen">
+        </div>
+    </div>
+    <br>
+    <div class="card text-center w-76 mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><b>Vecinos (Adyacencia)</b></h5>
+          <p class="card-text">Los nodos conectados por una arista se llaman vecinos o nodos adyacentes. La vecindad de un nodo es el conjunto de nodos conectados a él por aristas.</p>
+          <img src="adyacencia.png" alt="90" class="centrar-imagen">
+        </div>
+    </div>
+    <br>
+    <div class="card text-center w-76 mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><b>Ciclo</b></h5>
+          <p class="card-text">Un ciclo es una secuencia de nodos donde el primer nodo es igual al último, y cada nodo en la secuencia está conectado al siguiente mediante una arista.</p>
+          <img src="ciclo.png" alt="90" class="centrar-imagen">
+        </div>
+    </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Tipos de Grafos</b></h3>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="dirigido.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Grafo Dirigido</b></h5>
+              <p class="card-text">En un grafo dirigido, cada arista tiene una dirección. Los pares ordenados de nodos (u, v) y (v, u) son tratados como distintos, lo que significa que hay una diferencia entre el nodo de inicio y el nodo de llegada.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="nodir.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Grafo No Dirigido</b></h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col">
+            <div class="card h-100">
+              <img src="conexo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <br>
+                <br>
+                <h5 class="card-title"><b>Grafo Conexo</b></h5>
+                <p class="card-text">Un grafo conexo tiene al menos un camino entre cada par de nodos, lo que significa que no hay nodos aislados.</p>
+              </div>
+            </div>
+        </div>
 
+        <div class="col">
+          <div class="card h-100">
+            <img src="ponderado2.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <br>
+              <br>
+              <h5 class="card-title"><b>Grafo Ponderado</b></h5>
+              <p class="card-text">Un grafo ponderado tiene asignados pesos a sus aristas, lo que significa que cada arista tiene un valor asociado. Estos pesos pueden representar distancias, costos, tiempos, etc.</p>
+            </div>
+          </div>
+        </div>
 
-    <div class="bg-dark text-secondary px-4 py-5 text-center fixed-bottom">
+        <div class="col">
+            <div class="card h-100">
+              <img src="ciclico.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Grafo Cíclico</b></h5>
+                <p class="card-text">Un grafo cíclico contiene al menos un ciclo, es decir, hay una secuencia de aristas que forma un circuito cerrado.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+              <img src="aciclico.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Grafo Acíclico</b></h5>
+                <p class="card-text">Un grafo cíclico contiene al menos un ciclo, es decir, hay una secuencia de aristas que forma un circuito cerrado.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3 class="fst-italic"><b>Ejemplos de grafos</b></h3>
+    <p>Los grafos se pueden encontrar en numerosas situaciones de la vida cotidiana para modelar relaciones y conexiones. Aquí tienes un ejemplo de la distancia entre las ciudades de España interpretado en un grafo:</p>
+    <img src="ejemgraf.webp" alt="90" style="width: 50%; border: 2p solid black;" class="centrar-imagen">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-4">
             <h4 class="display-5 fw-bold text-white">Made by</h4>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera IT3</p>
-                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
-                    <span class="bi bi-github fs-1"></span>
+                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera</p>
+                <p class="fs-6 text-secondary">¡Sigueme aqui!</p>
+                <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100006404921362">
+                    <span class="bi bi-facebook fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/elmonomasrabiosodetodoelsafari/" role="button">
+                    <span class="bi bi-instagram fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
+                    <span class="bi bi-whatsapp fs-1"></span>
                 </a>
                 <a class="btn btn-dark" href="https://www.youtube.com/channel/UCudCDLifas1MEJ26XxQkb_A" role="button">
                     <span class="bi bi-youtube fs-1"></span>
                 </a>
-                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
-                    <span class="bi bi-whatsapp fs-1"></span>
+                <a class="btn btn-dark" href="https://www.tiktok.com/@san.tiagods3" role="button">
+                    <span class="bi bi-tiktok fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://open.spotify.com/user/31zzk3gmm3b73d67fsqas3f5renm?si=9d7e93398a9c4888" role="button">
+                    <span class="bi bi-spotify fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
+                    <span class="bi bi-github fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.twitch.tv/santiago__ds3">
+                    <span class="bi bi-twitch fs-1"></span>
                 </a>
             </div>
         </div>

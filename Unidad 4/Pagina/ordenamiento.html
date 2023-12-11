@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +21,14 @@
             margin-right: auto;
         }
     </style>
-    <title>Document</title>
+    <title>Algoritmos de Ordenamiento</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><span class="text primary">Estructuras de</span> Datos </Code></a>
+            <a href="index.html" class="navbar-brand"><img src="wos2.jpeg" width="30px" height="20px"><span
+                    class="text primary"> Estructuras de</span> Datos </Code></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
                 aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-tooggler-icon"></span>
@@ -66,34 +69,186 @@
     <h1>
         <p class="fst-italic"><b>Algoritmos de Ordenamiento</b></p>
     </h1>
-    <p>Los algoritmos de ordenamiento son métodos sistemáticos para organizar los elementos de una lista o conjunto de datos en un cierto orden. El ordenamiento es un problema común en ciencias de la computación y se utiliza para mejorar la eficiencia de búsquedas y operaciones en conjuntos de datos. </p>
-    <br> 
+    <p>Los algoritmos de ordenamiento son métodos sistemáticos para organizar los elementos de una lista o conjunto de
+        datos en un cierto orden. El ordenamiento es un problema común en ciencias de la computación y se utiliza para
+        mejorar la eficiencia de búsquedas y operaciones en conjuntos de datos. </p>
+    <br>
+    <img src="algoritmo.png" alt="90" style="width: 30%; border: 2p solid black;"
+        class="centrar-imagen object-fit-contain border rounded">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Tipos de Algoritmos de Ordenamiento</b></h3>
+    <br>
 
 
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Burbuja (Bubble Sort)</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+                Compara pares de elementos adyacentes y los intercambia si están en el orden incorrecto. Este proceso se
+                repite hasta que la lista esté ordenada.
+                Es simple pero no eficiente para listas grandes.
+                <img src="burbuja.png" alt="90" class="centrar-imagen" style="width: 30%;">
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Selección (Selection Sort)</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+                Encuentra el elemento mínimo en la lista y lo intercambia con el primer elemento. Luego, encuentra el
+                mínimo en el resto de la lista y lo intercambia con el segundo elemento, y así sucesivamente.
+                No es eficiente para grandes conjuntos de datos, pero puede ser más eficiente en comparación con la
+                burbuja.
+                <img src="seleccion.gif" alt="90" class="centrar-imagen" style="width: 30%;">
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Inserción (Insertion Sort)</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+            <div class="card card-body">
+                Construye una secuencia ordenada de elementos uno a la vez tomando elementos de la lista e insertándolos
+                en la posición correcta.
+                Eficiente para listas pequeñas o parcialmente ordenadas.
+                <img src="inser.png" alt="90" class="centrar-imagen" style="width: 30%;">
 
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Merge Sort</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample4">
+            <div class="card card-body">
+                Divide la lista en mitades, ordena cada mitad y luego combina las mitades ordenadas para obtener la
+                lista final ordenada.
+                Es eficiente para listas grandes y garantiza un rendimiento O(nlog⁡n)O(nlogn) en todos los casos.
+                <img src="merge.png" alt="90" class="centrar-imagen" style="width: 30%;">
 
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Quick Sort</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample5">
+            <div class="card card-body">
+                Selecciona un "pivote" y particiona la lista en dos: elementos menores que el pivote y elementos mayores
+                que el pivote. Luego, aplica el mismo proceso a cada sublista.
+                Es eficiente para listas grandes y tiene un rendimiento promedio
+                O(nlog⁡n)O(nlogn).
+                <img src="quick.png" alt="90" class="centrar-imagen" style="width: 30%;">
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Heap Sort</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample6">
+            <div class="card card-body">
+                Construye un heap (estructura de datos en forma de árbol) y luego extrae repetidamente el elemento
+                máximo (en el caso de un max-heap) para obtener la lista ordenada.
+                Tiene un rendimiento
+                O(nlog⁡n)O(nlogn) y es in-place, lo que significa que no requiere almacenamiento adicional.
+                <img src="heap.png" alt="90" class="centrar-imagen" style="width: 30%;">
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample7" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Radix Sort</a>
+    <div>
+        <div class="collapse multi-collapse" id="multiCollapseExample7">
+            <div class="card card-body">
+                Ordena los elementos basándose en sus dígitos, comenzando desde el dígito menos significativo hasta el
+                más significativo o viceversa.
+                Es eficiente para ordenar números enteros con un número limitado de dígitos.
+                <img src="radix.png" alt="90" class="centrar-imagen" style="width: 30%;">
+            </div>
+        </div>
+    </div>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Más información</b></h3>
+    <br>
+    <div class="card mb-3 center-block" style="width: 60%;">
+        <img src="refer.png" class="card-img-top centrar-imagen" alt="90" style="width: 60%;">
+        <div class="card-body">
+          <h5 class="card-title">Algoritmos de Ordenamiento</h5>
+          <p class="card-text">Los algoritmos de ordenamiento han sido fuente de gran interés e investigación desde el inicio de la computación, aunque su resolución es relativamente simple a lo largo de la historia se ha diseñado numerosas técnicas para lograr el algoritmo más eficiente que logre ordenar una lista de la manera más rápida y eficiente.</p>
+          <a href="https://juncotic.com/algoritmos-de-ordenamiento/" class="btn btn-primary">Más información</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <div class="bg-dark text-secondary px-4 py-5 text-center fixed-bottom">
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-4">
             <h4 class="display-5 fw-bold text-white">Made by</h4>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera IT3</p>
-                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
-                    <span class="bi bi-github fs-1"></span>
+                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera</p>
+                <p class="fs-6 text-secondary">¡Sigueme aqui!</p>
+                <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100006404921362">
+                    <span class="bi bi-facebook fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/elmonomasrabiosodetodoelsafari/" role="button">
+                    <span class="bi bi-instagram fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
+                    <span class="bi bi-whatsapp fs-1"></span>
                 </a>
                 <a class="btn btn-dark" href="https://www.youtube.com/channel/UCudCDLifas1MEJ26XxQkb_A" role="button">
                     <span class="bi bi-youtube fs-1"></span>
                 </a>
-                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
-                    <span class="bi bi-whatsapp fs-1"></span>
+                <a class="btn btn-dark" href="https://www.tiktok.com/@san.tiagods3" role="button">
+                    <span class="bi bi-tiktok fs-1"></span>
+                </a>
+                <a class="btn btn-dark"
+                    href="https://open.spotify.com/user/31zzk3gmm3b73d67fsqas3f5renm?si=9d7e93398a9c4888" role="button">
+                    <span class="bi bi-spotify fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
+                    <span class="bi bi-github fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.twitch.tv/santiago__ds3">
+                    <span class="bi bi-twitch fs-1"></span>
                 </a>
             </div>
         </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +21,14 @@
             margin-right: auto;
         }
     </style>
-    <title>Document</title>
+    <title>Recursividad</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><span class="text primary">Estructuras de</span> Datos </Code></a>
+            <a href="index.html" class="navbar-brand"><img src="wos2.jpeg" width="30px" height="20px"><span
+                    class="text primary"> Estructuras de</span> Datos </Code></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
                 aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-tooggler-icon"></span>
@@ -66,36 +69,182 @@
     <h1>
         <p class="fst-italic"><b>Recursividad</b></p>
     </h1>
-    <p>La recursividad es un concepto en programación y matemáticas que implica la definición o descripción de algo en términos de sí mismo. En programación, se refiere a la capacidad de una función para llamarse a sí misma directa o indirectamente, con el objetivo de resolver un problema de manera más concisa y elegante.</p>
+    <p>La recursividad es un concepto en programación y matemáticas que implica la definición o descripción de algo en
+        términos de sí mismo. En programación, se refiere a la capacidad de una función para llamarse a sí misma directa
+        o indirectamente, con el objetivo de resolver un problema de manera más concisa y elegante.</p>
     <br>
+    <img src="recursa.png" alt="90" style="width: 50%;" class="center-block">
+    <br>
+    Un ejemplo de recursividad fácil de visualizar son los fractales, como el triángulo de Sierpinski (ver gif de
+    arriba), que son objetos geométricos cuya estructura básica se repite a diferentes escalas. En el caso del triángulo
+    de Sierpinski, partimos de una regla sencilla: dado un triángulo, dibujamos 3 triángulos nuevos, con lados de
+    longitudes la mitad que el primero y organizados de una manera particular, como podemos ver en el gif. La
+    recursividad se da en que volvemos a aplicar la misma regla a cada uno de los triángulos producidos, y así
+    sucesivamente.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Aplicaciones de la recursividad</b></h3>
+    <br>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><b>
+                        <h5>
+                            Listas enlazadas
+                        </h5>
+                    </b></button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    En el caso de <strong>listas enlazadas</strong>, la recursividad puede utilizarse para recorrer la
+                    lista de manera eficiente.
+                    Cada nodo en la lista puede considerarse como un subproblema más pequeño, y la recursividad se
+                    utiliza para pasar al siguiente nodo hasta llegar al final (caso base).
+                    <img src="enlazada.png" alt="90" class="centrar-imagen">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><b>
+                        <h5>
+                            Árboles
+                        </h5>
+                    </b></button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    En <strong>árboles</strong>, la recursividad es una herramienta poderosa para realizar operaciones
+                    de búsqueda, inserción o eliminación.
+                    Cada subárbol se puede ver como un problema más pequeño, y la recursión se aplica para realizar la
+                    misma operación en cada subárbol.
+                    <img src="altura.png" alt="90" class="centrar-imagen">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo"><b>
+                        <h5>
+                            Grafos
+                        </h5>
+                    </b></button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Al trabajar con estructuras de <strong>grafos</strong>, la recursividad se puede utilizar para
+                    realizar búsquedas en profundidad (DFS, por sus siglas en inglés).
+                    La recursividad permite explorar cada vértice y sus vecinos de manera recursiva, marcando los
+                    vértices visitados para evitar ciclos infinitos.
+                    <img src="grafo.png" alt="90" class="centrar-imagen">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><b>
+                        <h5>
+                            Matrices y Arreglos
+                        </h5>
+                    </b></button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    En el caso de <strong>matrices o arreglos </strong>multidimensionales, la recursividad puede
+                    aplicarse para realizar operaciones en subconjuntos de la matriz.
+                    Por ejemplo, se podría utilizar la recursividad para explorar una matriz en forma de espiral o
+                    realizar operaciones en submatrices.
+
+                    <img src="arreglo.jpeg" alt="90" class="centrar-imagen">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><b>
+                        <h5>
+                            Estructuras de Datos Recursivas
+                        </h5>
+                    </b></button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Algunas <strong> estructuras de datos </strong> son inherentemente recursivas. Por ejemplo, una
+                    lista puede considerarse una estructura de datos recursiva, ya que cada elemento de la lista puede
+                    contener otra lista como su propio subconjunto.
+
+                    <img src="listas.png" alt="90" class="centrar-imagen">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="fst-italic"><b>Más información</b></h3>
+    <br>
+    <div class="card mb-3 center-block" style="width: 60%;">
+        <img src="recursividad.gif" class="card-img-top centrar-imagen" alt="90" style="width: 60%;">
+        <div class="card-body">
+          <h5 class="card-title">Recursividad</h5>
+          <p class="card-text">Es fundamental tener un buen entendimiento de la estructura específica de datos con la que estás trabajando y de cómo las operaciones recursivas pueden adaptarse a esa estructura. Además, al igual que con las funciones recursivas, es importante definir casos base para evitar la recursión infinita y garantizar que el proceso termine en algún momento. La recursividad puede hacer que el código sea más elegante y conciso, pero también se debe usar con cuidado para evitar problemas de rendimiento o complejidad no deseada.</p>
+          <a href="https://a01205866.medium.com/estructuras-de-datos-recursividad-y-árboles-5ad7b75ef1fb" class="btn btn-primary">Más información</a>
+        </div>
+    </div>
 
 
 
-
-
-
-
-    <div class="bg-dark text-secondary px-4 py-5 text-center fixed-bottom">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-4">
             <h4 class="display-5 fw-bold text-white">Made by</h4>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera IT3</p>
-                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
-                    <span class="bi bi-github fs-1"></span>
+                <p class="fs-5 mb-4 text-white">Nahum Santiago Espinoza Herrera</p>
+                <p class="fs-6 text-secondary">¡Sigueme aqui!</p>
+                <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100006404921362">
+                    <span class="bi bi-facebook fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/elmonomasrabiosodetodoelsafari/" role="button">
+                    <span class="bi bi-instagram fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
+                    <span class="bi bi-whatsapp fs-1"></span>
                 </a>
                 <a class="btn btn-dark" href="https://www.youtube.com/channel/UCudCDLifas1MEJ26XxQkb_A" role="button">
                     <span class="bi bi-youtube fs-1"></span>
                 </a>
-                <a class="btn btn-dark" href="https://wa.me/524651130447" role="button">
-                    <span class="bi bi-whatsapp fs-1"></span>
+                <a class="btn btn-dark" href="https://www.tiktok.com/@san.tiagods3" role="button">
+                    <span class="bi bi-tiktok fs-1"></span>
+                </a>
+                <a class="btn btn-dark"
+                    href="https://open.spotify.com/user/31zzk3gmm3b73d67fsqas3f5renm?si=9d7e93398a9c4888" role="button">
+                    <span class="bi bi-spotify fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/SantiiagoDS3">
+                    <span class="bi bi-github fs-1"></span>
+                </a>
+                <a class="btn btn-dark" href="https://www.twitch.tv/santiago__ds3">
+                    <span class="bi bi-twitch fs-1"></span>
                 </a>
             </div>
         </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
